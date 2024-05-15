@@ -52,11 +52,15 @@ a{
     border-color: var(--brand);
 }
 #about{
-    background-color: 56995F;
+    background-color: #63aa9e;
 }
 
 #about h6{
     color: var(--brand);
+}
+
+#service{
+    background-color:#59998e ;
 }
 
 .icon-box-img{
@@ -136,7 +140,7 @@ border-color: var(brand);
     background-size: cover;
     background-repeat: no-repeat;
      background-attachment: fixed;
-     background-color: #397463;
+     background-color: #4f887e;
     /* background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),
     url(https://img.freepik.com/free-photo/small-toy-plane-with-sunglasses-palm-leaves_23-2148100633.jpg?t=st=1712800003~exp=1712803603~hmac=a56ba3ce070cf23bf46861cf1318bcc8ed1519e0ff9e1ad9c3534643062ab4b9&w=1380); */
     /* min-height: 70vh; */
