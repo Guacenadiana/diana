@@ -1,0 +1,220 @@
+:root{
+
+    --bg1: #63aa9e;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95,86, 86):var(--bg1);
+    --brand: #F2B03B;
+    --white: rgb (156, 154, 154);
+    --p: rgb (161, 150, 150);
+
+
+}
+section{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+body{
+    background-color: var(--bg1);
+}
+
+a{
+    text-decoration: none;
+}
+#banner{
+    height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),
+    url(https://img.freepik.com/premium-photo/high-angle-plane-toy-map_23-2148580901.jpg);
+    background-size: cover;
+    filter: blur();
+}
+
+/* */
+.navbar {
+    background: linear-gradient(to bottom, (0. 2%, 17%, 0.829) , (44, 42, 42, 0.884));
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand{
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+#about{
+    background-color: 56995F;
+}
+
+#about h6{
+    color: var(--brand);
+}
+
+.icon-box-img{
+    width: 40%;
+}
+
+.btn-outline-brand {
+background-color: transparent;
+color:  var(--brand);
+border-color: var(brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1)
+}
+
+.card{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover{
+    background-color:  var(--bg2);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+#cta{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),
+    url(https://img.freepik.com/free-photo/small-toy-plane-with-sea-stars-table_23-2148100598.jpg?t=st=1711337908~exp=1711341508~hmac=858ba8b35d3b5875d9c37d45b58a9a0495aeb617f923c8fd072443c455b8f3ff&w=1380);
+    min-height: 70vh;
+}
+
+#reviews {
+    background-color: var(--white);
+}
+.testimonials{
+    background-color: var(--bg2);
+    padding: 30px;
+
+}
+.testimonials img{
+    width: 20%;
+    border-radius: 50%;
+    height: 20%;
+}
+
+.reviews a {
+    color: var(--brand);
+}
+
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+   
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+#faq{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-color: #397463;
+    /* background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),
+    url(https://img.freepik.com/free-photo/small-toy-plane-with-sunglasses-palm-leaves_23-2148100633.jpg?t=st=1712800003~exp=1712803603~hmac=a56ba3ce070cf23bf46861cf1318bcc8ed1519e0ff9e1ad9c3534643062ab4b9&w=1380); */
+    /* min-height: 70vh; */
+}
+
+.accordion-button{
+    background-color: #dee;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #63aa9e;
+}
+.faq-answer p{
+    margin-bottom: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapse){
+    color: var(--bg1);
+}
+
+/* Hover effect for FAQ question */
+.accordion-button:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+
+}
+
+.accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: "";
+    float: right;
+    font-weight: 900;
+    margin-left:  auto;
+
+}
+
+.accordion-button[aria-expanded="true"]::after{
+    content: "";
+}
+
+.footer .container {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    background-color: #5e5e5e;
+}
+
+#footer a {
+    color: white;
+}
